@@ -1,0 +1,119 @@
+* {
+  font-family: sans-serif;
+  font-weight: 600;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 14px;
+
+}
+
+body{
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(243,243,243);
+  padding:0;
+  display:flex;
+  justify-content:center;
+
+}
+
+.login-wrapper {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  justify-content: start;
+  background-color: rgb(243,243,243);
+  }
+
+.login-container {
+  width: 50%;
+  padding: 90px 60px;
+    
+}
+
+
+.login {
+  border: 2px solid #e5e5e5;
+  margin-right: 70%;
+  
+}
+.round {
+  border-radius: 180%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  height: 10rem
+      
+}
+
+
+.celular {
+  height: 100%;
+  display: flex;
+  text-align: right;
+  margin-left: 45%;
+  
+}
+.login>img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 8rem; 
+ 
+
+}
+.nome {
+  border: 1px solid#e5e5e5;
+  background: #1e24e3;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 2px;
+  
+}
+.logo{
+   height: 2rem;
+}
+.usuario {
+  color: #1e24e3;
+  text-align: center;
+}
+.outro {
+  text-align: center;
+  color: #9c9898;
+}
+.get-app {
+  text-align: center;
+  color: #1a1818;
+  margin-right: 70%;
+}
+.app-dowload:nth-child(1){
+  background-image: url(https://e7.pngegg.com/pngimages/718/1015/png-clipart-app-store-apple-google-play-apple-text-logo.png);
+}
+.app-dowload:nth-child(2){
+  background-image: url(https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png?hl=pt-br);
+}
+
+@media (max-width: 1024px;) {
+   login-wrapper: {
+     width: 90%;
+   }
+}
+@media (max-width: 650px;) {
+    body: {
+    background-color: #ffffff;
+    }
+    .login-container: {
+      width: 90%;
+    }
+    .celular: {
+      display: none;
+    }
+    .nome {
+      width: 100%;
+    }
+  
+    
+}
